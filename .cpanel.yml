@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pdpof795/public_html
+    - /bin/cp -r * $DEPLOYPATH
+
