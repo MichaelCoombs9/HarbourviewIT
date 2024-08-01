@@ -1019,17 +1019,17 @@ nav .header-top .gray-text {
     box-shadow: 0 2px 10px rgba(0,0,0,.10);
 }
 .case-studies-carousel .carousel-inner .item1 {
-    background: url(../images/case-studies-slider1.jpg) center top no-repeat;
+    background: url(../images/backgroundGradient.jpg) center top no-repeat;
     background-size: cover;
 }
 
 .case-studies-carousel .carousel-inner .item2 {
-    background: url(../images/case-studies-slider2.jpg) center top no-repeat;
+    background: url(../images/backgroundGradient.jpg) center top no-repeat;
     background-size: cover;
 }
 
 .case-studies-carousel .carousel-inner .item3 {
-    background: url(../images/case-studies-slider3.jpg) center top no-repeat;
+    background: url(../images/backgroundGradient.jpg) center top no-repeat;
     background-size: cover;
 }
 
@@ -1278,7 +1278,7 @@ form .form-control:focus {
 /*-- 11. success number css 
 --------------------------------------- --*/
 .success-number {
-    background: url(../images/success-number-img.jpg) center 140px no-repeat;
+    background: url(../images/success-number-imgx.jpg) center 140px no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 31px;
