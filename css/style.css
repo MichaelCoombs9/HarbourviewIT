@@ -465,7 +465,47 @@ nav .header-top .gray-text {
 
 /*-- 5. Revolution slider custom css 
 --------------------------------------- --*/
+-------
+.static_image_wrapper {
+    position: relative;
+    width: 100%;
+}
 
+.static_image_wrapper .static-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.text-overlay .h1 {
+    font-size: 3em;
+    color: #008ccb;
+}
+
+.text-overlay .h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.text-overlay .list-inline {
+    margin-top: 20px;
+}
+
+.text-overlay .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+-------
 .h1 {
     font-size: 60px;
     line-height: 70px;
