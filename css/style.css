@@ -150,12 +150,12 @@ fieldset[disabled] .btn-primary:hover {
 
 .btn.btn-primary {
     background: transparent;
-    color: #333333;
+    color: #FFA500;
 }
 
 .btn.btn-primary:hover {
     background: #FFA500;
-    color: #FFA500;
+    color: #ffffff;
     border: 2px solid #FFA500;
 }
 
@@ -240,7 +240,7 @@ textarea::-moz-placeholder {
 }
 
 textarea:-ms-input-placeholder {
-    color: #333333;
+    color: #a02626;
     font-weight: 400;
     font-size: 14px;
     opacity: 1;
@@ -261,6 +261,7 @@ form .customised-formgroup textarea {
     height: 44px;
     padding: 10px 25px;
     border-bottom: 2px solid #d5d5d5;
+    text-indent: 10px;
 }
 
 form .customised-formgroup textarea:focus,
@@ -318,24 +319,36 @@ form .customised-formgroup span {
 
 form .customised-formgroup span.icon-user {
     font-size: 16px;
+    text-indent: 10px;
 }
 
 form .customised-formgroup span.icon-envelope {
     font-size: 18px;
+    text-indent: 10px;
 }
 
 form .customised-formgroup span.icon-telephone {
     font-size: 17px;
+    text-indent: 10px;
 }
-
+form .customised-formgroup span.icon-bubble {
+    font-size: 17px;
+    text-indent: 10px;
+}
+form .customised-formgroup span.icon-laptop {
+    font-size: 17px;
+    text-indent: 10px;
+}
 form .customised-formgroup textarea {
     resize: none;
     height: 108px;
+    text-indent: 10px;
 }
 
 form .msg p {
     bottom: -24px;
     font-weight: 400!important;
+    text-indent: 10px;
 }
 
 /*-- 4. header css 
@@ -1283,35 +1296,36 @@ form .form-control:focus {
 }
 
 .common-form-section .customised-formgroup input::-webkit-input-placeholder {
-    color: #F2F2F2;
+    color: #5b4502;
+    text-indent: 10px;
 }
 
 .common-form-section .customised-formgroup input:-moz-placeholder {
-    color: #F2F2F2;
+    color: #5b4502;
 }
 
 .common-form-section .customised-formgroup input::-moz-placeholder {
-    color: #F2F2F2;
+    color: #5b4502;
 }
 
 .common-form-section .customised-formgroup input:-ms-input-placeholder {
-    color: #F2F2F2;
+    color: #5b4502;
 }
 
 .common-form-section .customised-formgroup textarea::-webkit-input-placeholder {
-    color: #F2F2F2;
+    color: #5b4502;
 }
 
 .common-form-section .customised-formgroup textarea:-moz-placeholder {
-    color: #F2F2F2;
+    color: #5b4502;
 }
 
 .common-form-section .customised-formgroup textarea::-moz-placeholder {
-    color: #F2F2F2;
+    color: #5b4502;
 }
 
 .common-form-section .customised-formgroup textarea:-ms-input-placeholder {
-    color: #F2F2F2;
+    color: #5b4502;
 }
 
 /*-- 11. success number css 
@@ -1460,7 +1474,7 @@ form .form-control:focus {
 .team-members .member_details h3 {
     font-size: 16px;
     line-height: 30px;
-    color: #333333;
+    color: #FFA500;
     text-transform: capitalize;
     margin: 0;
     text-align: center;
@@ -1472,7 +1486,7 @@ form .form-control:focus {
 .team-members .member_details h3 .member_intro {
     font-size: 24px;
     line-height: 30px;
-    color: #333333;
+    color: #FFA500;
     font-weight: 600;
     display: block;
 }
