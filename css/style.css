@@ -445,7 +445,7 @@ nav .header-top .gray-text {
 .navbar-nav>li>a {
     font-size: 16px;
     line-height: 44px;
-    color: #333333;
+    color: #FFA500;
     padding: 33px 0;
 }
 
@@ -463,10 +463,15 @@ nav .header-top .gray-text {
     margin-top: 30px;
 }
 
+.navbar-brand>img {
+    min-height: 75px;
+    min-width: 140px;
+}
+
 .navbar>.container .navbar-brand,
 .navbar>.container-fluid .navbar-brand {
     height: auto;
-    padding: 30px 15px;
+    padding: 10px 0px;
 }
 
 .navbar-fixed-bottom .navbar-collapse,
@@ -2296,7 +2301,7 @@ p {
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: #000;
+    background-color: #ffffff;
     line-height: 1;
 }
 
@@ -2307,16 +2312,16 @@ p {
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
-    color: white;
+    color: #FFA500;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover {
     color: #FFA500;
 }
 
-.navbar-expand-md .navbar-nav .nav-link.active {
+/* .navbar-expand-md .navbar-nav .nav-link.active {
     color: #FFA500;
-}
+} */
 .navbar-brand {
     margin-right: 0;
     margin-left: -15px;
